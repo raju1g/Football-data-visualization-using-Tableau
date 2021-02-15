@@ -5,6 +5,4 @@ The season data is stored in a single file as noted by the filename: `sportsref_
 
 ![rawdata](screenshots/import.PNG)
 
-
-**Data Description**: The source data resides in S3 `s3://<s3-bucket>` for each day from **2018-01-20** till **2018-03-30**, as shown:
-```bash
+**Note**: This season data (free) downloaded from the aforementioned website has significant limitations. It mainly contains player information in terms of performance (frequency of scoring goals, assits, etc.). It does not contain any location data (x-, y-coordinates on the pitch) so that advanced analysis such as, modeling can not be perfomed. 
