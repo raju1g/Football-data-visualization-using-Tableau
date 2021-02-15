@@ -3,7 +3,7 @@
  
 The season data is stored in a single file as noted by the filename: `sportsref_download_Veikkausliiga2020.txt`. Each line in each file represents a *unique user*, as identified by `id` column. Information on each user's searches and engagement is stored in `searches` column. An example of this is shown below:
 
-![rawdata](images/rawdata.png)
+![rawdata](screenshots/import.PNG)
 
 
 **Data Description**: The source data resides in S3 `s3://<s3-bucket>` for each day from **2018-01-20** till **2018-03-30**, as shown:
